@@ -16,31 +16,35 @@
 					  <label>Full Name</label>
 							<br>
 						        <input type="text" name="FullName" placeholder="Rapper Uganada knuckes">
-						 <br>
-					  <label>Interest</label>
-							 <br>
-							    <input type="tel" name="phone"
-								placeholder="types">
-							 <br>
-						<ul>transportation
-							<br>
-							<li>Bike</li>
-							<li>Car</li>
-						</ul>
-					    
-					   <ul>Income
-						   <br>
-						   <li>-15k</li>
-						   <li>15-20k</li>
-						   <li>+25k</li>
-						</ul>
-								<br>
-								 <label> Reset<br>
-					<input type="text" name="Reset" placeholder="Reset">
-				</label>
-								<br>
-								 <label> send<br>
-					<input type="text" name="send" placeholder="Send">
-				</label>
+		<form>
+		<label> Interest</label><br>
+    <select name="Interests">
+        <option value="rap">Rap</option>
+        <option value="hiphop">Hip Hop</option>
+        <option value="r&b">RandB</option>
+        </select><br>
+
+    <label> Transportation</label>
+        <br>
+    <select name="Transportation"><br>
+             <option>Bike</option>
+             <option>Car</option><option>Transit</option>
+             <option>Lyft</option>
+            </select>
+        <br>
+        <label> Income</label>
+    
+        <br>
+        <input type="checkbox" name="income" value="15">15k
+        <br>
+        <input type="checkbox" name="income" value="20">15-20k
+        <br>
+        <input type="checkbox" name="income" value="25">25k+<br>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" value="Send">
+		</form>
+		<footer><a href="index.html">Home</a><br>
+        <a href="contact.html">Contact</a>
+    </footer>
 	</body>
 </html>
